@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small polish so it feels tidy */
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+pre code { display: block; padding: 1rem; overflow: auto; border-radius: 0.5rem; }
